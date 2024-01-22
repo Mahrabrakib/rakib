@@ -1,0 +1,353 @@
+*{
+    font-family: font-family: 'Lexend Deca', sans-serif !important;
+}
+.bg-dark{
+    color: #020617 !important;
+}
+.bg-darklight{
+    background-color: #111927;
+}
+
+.text-primary{
+    color: #FACC15 !important;
+}
+.bg-primary{
+    background-color: #FACC15 !important;
+}
+.bg-dark{
+    background-color: #020617 !important;
+}
+
+.hero{
+    min-height: 90vh;
+}
+
+.hero .left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    min-height: 90vh;
+    justify-content: center;
+}
+.hero .titel{
+    color: #EAB308;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;   
+}
+.hero .hero-titel{
+    color: #F3F4F6;
+    font-family: "Lexend Deca";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.hero .text{
+    color: #6B7280;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    ine-height: 27px;
+}
+.hero .btn{
+    padding: 8px 20px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+.hero img{
+   margin-top: 150px;
+   margin-bottom: 150px;
+ 
+}
+@media only screen and (max-width: 576px){
+    .hero img{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .hero .left-content{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+.About-Me{
+    min-height: 80vh;
+}
+.About-Me .right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    min-height: 80vh;
+    justify-content: center;
+    
+}
+.About-Me .titel{
+    color: #F3F4F6;
+    font-family: "Lexend Deca";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.About-Me .text{
+    color: #6B7280;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    ine-height: 27px;
+}
+.About-Me .btn{
+    padding: 8px 20px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.image-wraper{
+   border: 10px solid #FACC15;
+   border-radius: 24px;
+   display: flex;
+   
+   
+}
+.image-wraper img{
+  
+    width: 100%;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .About-Me .right-content{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/* Service-start */
+.section-top .text{
+    color: #6B7280;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    ine-height: 27px;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+.card{
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    padding: 32px;
+}
+.card .card-titel{
+    color: #F3F4F6;
+    font-family: "Lexend Deca";
+    ont-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.card .card-text{
+    color: #6B7280;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+/* Service-end */
+
+
+/* Portfolio-start */
+.Portfolio-titel {
+   font-family: "Lexend Deca";
+   font-size: 42px;
+   font-weight: 700;
+   line-height: 64px;
+   text-align: center;
+   margin-top: 96px;
+}
+.Portfolio-text{
+    color: #9CA3AF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 24px;
+}
+.lg{
+    max-width: 540px;
+    margin-top: 80px;
+    margin-bottom: 96px;
+    margin-left: 100px;
+    align-items: flex-end;
+}
+.img-wrapper{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.img-wrapper img{
+    padding: 0 25px 25px 0;
+}
+/* Portfolio-end */
+
+
+/* Experiences-start */
+
+.Experiences-section-card {
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.Experiences-section-card .date{
+    color: #D1D5DB;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.Experiences-section-card .card-titel{
+    color: #EAB308;
+    font-family: "Lexend Deca";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.Experiences-section-card .skill{
+    color: #D1D5DB;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.Experiences-section-card .card-text{
+    color: #6B7280;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+/* Experiences-end */
+
+
+/* Contact-start */
+.Contact-titel{
+    font-family: "Lexend Deca";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.Contact-text{
+    color: #9CA3AF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 24px;
+}
+
+.Contact-section .left-content{
+    margin-top: 105px;
+    margin-bottom: 145px;
+}
+.Contact-section a{
+   text-decoration: none;
+   color: white;
+   font-family: "Lexend Deca";
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 50px; 
+   margin-bottom: 16px;
+}
+
+.Contact-section .right-content{
+    margin-top: 56px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+}
+.Contact-section .name{
+    max-width: 340px;;
+    height: 63px;
+    flex-shrink: 0;
+    background: #1F2937;
+    border: none;
+    color: #F3F4F6;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 18px;
+    margin-bottom: 53px;
+}
+.Contact-section .message{
+   max-width: 540px;
+    height: 166px;
+    flex-shrink: 0;
+    background: #1F2937;
+    border: none;
+    color: #F3F4F6;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 18px;
+    margin-bottom: 53px;
+}
+
+.Contact-section .Contact-btn{
+    width: 126px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    background: #EAB308;
+    margin-bottom: 96px;
+}
+
+
+
+/* Contact-end */
+
+
+.AboutMe-titel{
+    font-family: "Lexend Deca";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 96px;
+    color: white;
+    margin-bottom: 24px;
+}
+.AboutMe-text{
+    color: #9CA3AF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 56px;
+} 
+.bottom-content {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
